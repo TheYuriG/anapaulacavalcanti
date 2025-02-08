@@ -2,27 +2,7 @@ import { WhatsappLogoSVG } from "../components/UI/WhatsappSVG.tsx";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 text-gray-900">
-      {/* Header */}
-      <header className="bg-rose-pink shadow-md">
-        <nav className="max-w-screen-xl mx-auto flex justify-between items-center p-4">
-          <div className="text-2xl font-bold text-primary">
-            <a href="/">Ana Paula Cavalcanti</a>
-          </div>
-          <ul className="flex space-x-8">
-            <li>
-              <a href="#services" className="text-lg">Services</a>
-            </li>
-            <li>
-              <a href="#about" className="text-lg">About</a>
-            </li>
-            <li>
-              <a href="#contact" className="text-lg">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
+    <div class="bg-gray-100 text-gray-900">
       {/* Hero Section */}
       <section className="bg-blue-500 text-white text-center py-20">
         <h1 className="text-4xl font-semibold mb-4">
@@ -108,14 +88,6 @@ export default function Home() {
           </button>
         </form>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white text-center py-6">
-        <p>
-          &copy; {new Date().getFullYear()}{" "}
-          Ana Paula Cavalcanti. Todos os direitos reservados.
-        </p>
-      </footer>
     </div>
   );
 }
