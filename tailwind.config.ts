@@ -20,6 +20,9 @@ export default {
         "bonita": ["Tangerine", "serif"],
         "formal": ["Commissioner", "serif"],
       },
+      dropShadow: {
+        texto: "0 1.2px 1.2px rgba(0, 0, 0, 0.8)",
+      },
     },
   },
 } satisfies Config;
